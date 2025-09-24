@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/images/Indian_Army_Insignia.svg">
+    <title>Organization</title>
+    <link href="assets/plugins/aos/aos.min.css" rel="stylesheet">
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="assets/plugins/OwlCarousel2/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/plugins/OwlCarousel2/css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/fancy_fileupload.css" rel="stylesheet">
+    <link href="assets/plugins/ion.rangeSlider/ion.rangeSlider.min.css" rel="stylesheet">
+    <link href="assets/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="assets/plugins/select2/select2.min.css" rel="stylesheet">
+    <link href="assets/plugins/select2-bootstrap-5/select2-bootstrap-5-theme.min.css" rel="stylesheet">
+    <!-- Custom style for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Custom navbar padding and page background -->
+    <style>
+        /* Revert body to default theme backgrounds */
+        /* No explicit body background here so it follows Bootstrap variables */
+
+        /* Header backgrounds - light and dark */
+        .navbar {
+            background-color: #f7f5ee;
+            /* creamy light */
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        }
+
+        [data-bs-theme="dark"] .navbar {
+            background-color: #1f2329;
+            /* dark header */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .navbar {
+            padding: 1rem 0 !important;
+        }
+
+        .navbar-brand img {
+            height: 45px;
+        }
+
+        #themeToggleBtn {
+            padding: 0.75rem !important;
+            width: 50px;
+            height: 50px;
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 1rem 0 !important;
+            }
+
+            .navbar-brand img {
+                height: 40px;
+            }
+
+            #themeToggleBtn {
+                width: 45px;
+                height: 45px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <div class="navbar-brand d-flex align-items-center">
+                <img src="assets/images/Indian_Army_Insignia.svg" alt="Indian Army Insignia" class="navbar-logo">
+            </div>
+
+            <div class="d-flex align-items-center">
+                <button type="button" id="themeToggleBtn"
+                    class="align-items-center bg-transparent border-0 btn-user d-flex justify-content-center p-0">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end /. navbar -->
+    <!-- start hero header (waves) -->
+    <div class="hero-header-waves mx-3 overflow-hidden dark-overlay position-relative rounded-4" style="height: 75vh;">
+        <!-- start background header carousel -->
+        <div class="header-carousel owl-carousel owl-theme position-absolute top-0 start-0 end-0 h-100">
+            <img class="h-100 object-fit-cover" src="assets/images/oscc-2.jpg" alt="Image">
+            <img class="h-100 object-fit-cover" src="assets/images/oscc-3.jpg" alt="Image">
+            <img class="h-100 object-fit-cover" src="assets/images/oscc.jpg" alt="Image">
+
+        </div>
+        <!-- end /. background header carousel -->
+        <!-- <div class="header-carousel owl-carousel owl-theme position-absolute top-0 start-0 end-0 h-100">
+            <img class="h-70 object-fit-contain" src="assets/images/logo.png" alt="Image">
+        </div>
+
+        <!-- waves container -->
+        <div class="position-absolute z-2" style="bottom: 0; width: 100%;">
+            <svg id="waves " class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" />
+                </g>
+            </svg>
+        </div>
+        <!-- end /. waves container -->
+    </div>
+
+    <!-- start about section -->
+    <div class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-10 col-lg-8 col-xl-7">
+                    <!-- start section header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-down">
+                        <h2 class="display-6 fw-semibold mb-3 section-header__title text-capitalize">About OSCC</h2>
+                        <p class="text-muted fs-5">Ordnance Services Computer Centre</p>
+                        <p class="text-muted">Empowering India's Defense Infrastructure Through Advanced Information
+                            Technology</p>
+                    </div>
+                    <!-- end /. section header -->
+                </div>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="mb-4">
+                            <h3 class="h4 fw-semibold mb-3 text-primary">Organizational Overview</h3>
+                            <p class="text-muted mb-4">The Ordnance Services Computer Centre (OSCC) operates under the
+                                Ministry of Defence, Government of India, as the premier IT support organization for the
+                                Ordnance Services Directorate. Established to modernize and streamline defense logistics
+                                and procurement systems, OSCC serves as the technological backbone of India's ordnance
+                                services infrastructure.</p>
+                        </div>
+
+                        <div class="mb-4">
+                            <h3 class="h4 fw-semibold mb-3 text-primary">Core Mission</h3>
+                            <p class="text-muted mb-4">To provide secure, reliable, and efficient information technology
+                                solutions that enhance the operational effectiveness of ordnance services across all
+                                branches of the Indian Armed Forces, ensuring seamless integration of technology with
+                                defense logistics and procurement processes.</p>
+                        </div>
+
+                        <div class="mb-4">
+                            <h3 class="h4 fw-semibold mb-3 text-primary">Strategic Functions</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled text-muted">
+                                        <li class="mb-2"><i class="fas fa-server text-primary me-2"></i>IT
+                                            Infrastructure Management</li>
+                                        <li class="mb-2"><i
+                                                class="fas fa-shopping-cart text-primary me-2"></i>E-Procurement Systems
+                                        </li>
+                                        <li class="mb-2"><i
+                                                class="fas fa-shield-alt text-primary me-2"></i>Cybersecurity Operations
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list-unstyled text-muted">
+                                        <li class="mb-2"><i class="fas fa-users text-primary me-2"></i>Inter-Service
+                                            Coordination</li>
+                                        <li class="mb-2"><i
+                                                class="fas fa-graduation-cap text-primary me-2"></i>Technical Training
+                                            Programs</li>
+                                        <li class="mb-2"><i
+                                                class="fas fa-clipboard-check text-primary me-2"></i>Compliance &
+                                            Standards</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="assets/images/oscc.jpg" alt="About Us" class="img-fluid rounded-3 shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end /. about section -->
+
+    <!-- start FAQ section -->
+    <div class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-md-10 col-lg-8 col-xl-7">
+                    <!-- start section header -->
+                    <div class="section-header text-center mb-5" data-aos="fade-down">
+                        <h2 class="display-6 fw-semibold mb-3 section-header__title text-capitalize">Frequently Asked
+                            Questions</h2>
+                        <p class="text-muted">Find answers to common questions about our services and programs</p>
+                    </div>
+                    <!-- end /. section header -->
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <!-- FAQ Dropdown Selector -->
+                    <div class="text-center mb-5">
+                        <div class="btn-group" role="group" aria-label="FAQ Categories">
+                            <button type="button" class="btn btn-outline-primary active" data-category="gem"
+                                id="gem-btn">
+                                <i class="fas fa-shopping-cart me-2"></i>GeM
+                            </button>
+                            <button type="button" class="btn btn-outline-primary" data-category="nic" id="nic-btn">
+                                <i class="fas fa-network-wired me-2"></i>NIC
+                            </button>
+                            <button type="button" class="btn btn-outline-primary" data-category="dpp" id="dpp-btn">
+                                <i class="fas fa-file-contract me-2"></i>DPP
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Content -->
+                    <div class="accordion" id="faqAccordion">
+                        <!-- GeM FAQs -->
+                        <div class="faq-category" id="gem-faqs">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#gem1" aria-expanded="false" aria-controls="gem1">
+                                        What is GeM (Government e-Marketplace)?
+                                    </button>
+                                </h2>
+                                <div id="gem1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        GeM is a one-stop portal to facilitate online procurement of common use Goods &
+                                        Services required by various Government Departments / Organizations / PSUs. It
+                                        provides the tools of e-bidding, reverse e-auction and demand aggregation to
+                                        facilitate the government users achieve the best value for their money.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#gem2" aria-expanded="false" aria-controls="gem2">
+                                        How can our organization benefit from GeM?
+                                    </button>
+                                </h2>
+                                <div id="gem2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Our organization can use GeM to procure various goods and services including
+                                        equipment, uniforms, vehicles, IT equipment, and other operational
+                                        requirements. The platform ensures transparency, efficiency, and
+                                        cost-effectiveness in procurement processes.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#gem3" aria-expanded="false" aria-controls="gem3">
+                                        What are the key features of GeM for our organization?
+                                    </button>
+                                </h2>
+                                <div id="gem3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Key features include: Direct purchase for items up to ₹25,000, competitive
+                                        bidding for higher value items, vendor registration and verification, quality
+                                        assurance, payment integration, and comprehensive reporting for audit purposes.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- NIC FAQs -->
+                        <div class="faq-category d-none" id="nic-faqs">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#nic1" aria-expanded="false" aria-controls="nic1">
+                                        What is NIC (National Informatics Centre)?
+                                    </button>
+                                </h2>
+                                <div id="nic1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        NIC is the premier science & technology organization of the Government of India
+                                        in informatics services and information and communication technology (ICT)
+                                        applications. It provides network backbone and e-Governance support to Central
+                                        Government, State Governments, Union Territory Administrations, Districts, and
+                                        other Government bodies.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#nic2" aria-expanded="false" aria-controls="nic2">
+                                        How does NIC support our organization's operations?
+                                    </button>
+                                </h2>
+                                <div id="nic2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        NIC provides our organization with secure network infrastructure, data center
+                                        services,
+                                        application development, cybersecurity solutions, and digital transformation
+                                        support. This includes maintaining secure communication networks, managing
+                                        databases, and developing specialized software for our operations.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#nic3" aria-expanded="false" aria-controls="nic3">
+                                        What IT services does NIC provide to our organization?
+                                    </button>
+                                </h2>
+                                <div id="nic3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        NIC provides comprehensive IT services including: Secure network connectivity,
+                                        data center hosting, application development and maintenance, cybersecurity
+                                        solutions, email services, video conferencing, and technical support for various
+                                        digital initiatives undertaken by our organization.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DPP FAQs -->
+                        <div class="faq-category d-none" id="dpp-faqs">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#dpp1" aria-expanded="false" aria-controls="dpp1">
+                                        What is DPP (Defence Procurement Procedure)?
+                                    </button>
+                                </h2>
+                                <div id="dpp1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        DPP is a comprehensive framework that governs the procurement of defence
+                                        equipment and services for the Indian Armed Forces. It outlines the procedures,
+                                        policies, and guidelines for acquisition of defence systems, ensuring
+                                        transparency, accountability, and efficiency in defence procurement.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#dpp2" aria-expanded="false" aria-controls="dpp2">
+                                        How does DPP apply to our organization's procurement?
+                                    </button>
+                                </h2>
+                                <div id="dpp2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Our organization may follow DPP guidelines for certain specialized equipment and
+                                        security systems, especially when procuring advanced
+                                        security technology, surveillance systems, and specialized equipment
+                                        that require stringent quality standards and security clearances.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#dpp3" aria-expanded="false" aria-controls="dpp3">
+                                        What are the key stages in DPP procurement process?
+                                    </button>
+                                </h2>
+                                <div id="dpp3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        The DPP process typically includes: Requirement identification, feasibility
+                                        study, technical evaluation, vendor selection, contract negotiation, quality
+                                        assurance, delivery and acceptance testing, and post-delivery support. Each
+                                        stage has specific timelines and approval requirements to ensure proper
+                                        oversight.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end /. FAQ section -->
+
+    <!-- start blog section -->
+
+    <!-- end /. blog section -->
+    <!-- start footer -->
+
+    <!-- end /. footer -->
+    <!-- Optional JavaScript -->
+    <script src="assets/plugins/jQuery/jquery.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/plugins/aos/aos.min.js"></script>
+    <script src="assets/plugins/macy/macy.js"></script>
+    <script src="assets/plugins/simple-parallax/simpleParallax.min.js"></script>
+    <script src="assets/plugins/OwlCarousel2/owl.carousel.min.js"></script>
+    <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.min.js"></script>
+    <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.min.js"></script>
+    <script src="assets/plugins/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/plugins/counter-up/jquery.counterup.min.js"></script>
+    <script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.ui.widget.js"></script>
+    <script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.fileupload.js"></script>
+    <script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.iframe-transport.js"></script>
+    <script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.fancy-fileupload.js"></script>
+    <script src="assets/plugins/ion.rangeSlider/ion.rangeSlider.min.js"></script>
+    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/plugins/select2/select2.min.js"></script>
+    <!-- Custom script for this template -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
+
+NIC provides our organization with secure network infrastructure, data center
+services,
+application development, cybersecurity solutions, and digital transformation
+
+support. This includes maintaining secure communication networks, managing
+
+databases, and developing specialized software for our operations.
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="accordion-item mb-3">
+
+    <h2 class="accordion-header">
+
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nic3"
+            aria-expanded="false" aria-controls="nic3">
+
+            What IT services does NIC provide to our organization?
+        </button>
+
+    </h2>
+
+    <div id="nic3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+        <div class="accordion-body">
+
+            NIC provides comprehensive IT services including: Secure network connectivity,
+
+            data center hosting, application development and maintenance, cybersecurity
+
+            solutions, email services, video conferencing, and technical support for various
+
+            digital initiatives undertaken by our organization.
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+<!-- DPP FAQs -->
+
+<div class="faq-category d-none" id="dpp-faqs">
+
+    <div class="accordion-item mb-3">
+
+        <h2 class="accordion-header">
+
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dpp1"
+                aria-expanded="false" aria-controls="dpp1">
+
+                What is DPP (Defence Procurement Procedure)?
+
+            </button>
+
+        </h2>
+
+        <div id="dpp1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+                DPP is a comprehensive framework that governs the procurement of defence
+
+                equipment and services for the Indian Armed Forces. It outlines the procedures,
+
+                policies, and guidelines for acquisition of defence systems, ensuring
+
+                transparency, accountability, and efficiency in defence procurement.
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="accordion-item mb-3">
+
+        <h2 class="accordion-header">
+
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dpp2"
+                aria-expanded="false" aria-controls="dpp2">
+
+                How does DPP apply to our organization's procurement?
+            </button>
+
+        </h2>
+
+        <div id="dpp2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+                Our organization may follow DPP guidelines for certain specialized equipment and
+                security systems, especially when procuring advanced
+                security technology, surveillance systems, and specialized equipment
+                that require stringent quality standards and security clearances.
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="accordion-item mb-3">
+
+        <h2 class="accordion-header">
+
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dpp3"
+                aria-expanded="false" aria-controls="dpp3">
+
+                What are the key stages in DPP procurement process?
+
+            </button>
+
+        </h2>
+
+        <div id="dpp3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+            <div class="accordion-body">
+
+                The DPP process typically includes: Requirement identification, feasibility
+
+                study, technical evaluation, vendor selection, contract negotiation, quality
+
+                assurance, delivery and acceptance testing, and post-delivery support. Each
+
+                stage has specific timelines and approval requirements to ensure proper
+
+                oversight.
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- end /. FAQ section -->
+
+
+
+<!-- start blog section -->
+
+
+
+<!-- end /. blog section -->
+
+<!-- start footer -->
+
+
+
+<!-- end /. footer -->
+
+<!-- Optional JavaScript -->
+
+<script src="assets/plugins/jQuery/jquery.min.js"></script>
+
+<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script src="assets/plugins/aos/aos.min.js"></script>
+
+<script src="assets/plugins/macy/macy.js"></script>
+
+<script src="assets/plugins/simple-parallax/simpleParallax.min.js"></script>
+
+<script src="assets/plugins/OwlCarousel2/owl.carousel.min.js"></script>
+
+<script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.min.js"></script>
+
+<script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.min.js"></script>
+
+<script src="assets/plugins/waypoints/jquery.waypoints.min.js"></script>
+
+<script src="assets/plugins/counter-up/jquery.counterup.min.js"></script>
+
+<script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.ui.widget.js"></script>
+
+<script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.fileupload.js"></script>
+
+<script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.iframe-transport.js"></script>
+
+<script src="assets/plugins/jquery-fancyfileuploader/fancy-file-uploader/jquery.fancy-fileupload.js"></script>
+
+<script src="assets/plugins/ion.rangeSlider/ion.rangeSlider.min.js"></script>
+
+<script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="assets/plugins/select2/select2.min.js"></script>
+
+<!-- Custom script for this template -->
+
+<script src="assets/js/script.js"></script>
+
+</body>
+
+
+
+</html>
