@@ -2370,7 +2370,7 @@ hr {
     fill: var(--bs-body-bg)
 }
 
-[data-bs-theme=light] .accordion-button:not(.collapsed) + .accordion-collapse .accordion-body {
+[data-bs-theme=light] .accordion-button:not(.collapsed)+.accordion-collapse .accordion-body {
     background-color: rgba(216, 188, 115, 0.12);
 }
 
@@ -2378,6 +2378,7 @@ hr {
     background-color: var(--bs-primary);
     color: #fff;
 }
+
 @-webkit-keyframes move-forever {
     0% {
         -webkit-transform: translate3d(-90px, 0, 0);
