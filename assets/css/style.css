@@ -168,6 +168,14 @@
     color: white;
 }
 
+[data-bs-theme=dark] .about-title {
+    color: #d8bc73 !important;
+}
+
+.about-title {
+    color: var(--bs-blue) !important;
+}
+
 /* Animation for FAQ category switching */
 .faq-category.fade-in {
     animation: fadeInUp 0.5s ease-out;
